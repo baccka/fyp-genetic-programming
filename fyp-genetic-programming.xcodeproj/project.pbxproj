@@ -1,0 +1,381 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FAB8CF721CBC4C600008C2B6 /* geneticProgramming.h in Headers */ = {isa = PBXBuildFile; fileRef = FAB8CF671CBC4C600008C2B6 /* geneticProgramming.h */; };
+		FAB8CF731CBC4C600008C2B6 /* grammar.h in Headers */ = {isa = PBXBuildFile; fileRef = FAB8CF681CBC4C600008C2B6 /* grammar.h */; };
+		FAB8CF741CBC4C600008C2B6 /* treeCompiler.h in Headers */ = {isa = PBXBuildFile; fileRef = FAB8CF691CBC4C600008C2B6 /* treeCompiler.h */; };
+		FAB8CF751CBC4C600008C2B6 /* treeGenerator.h in Headers */ = {isa = PBXBuildFile; fileRef = FAB8CF6A1CBC4C600008C2B6 /* treeGenerator.h */; };
+		FAB8CF761CBC4C600008C2B6 /* iteratorRange.h in Headers */ = {isa = PBXBuildFile; fileRef = FAB8CF6B1CBC4C600008C2B6 /* iteratorRange.h */; };
+		FAB8CF771CBC4C600008C2B6 /* tree.h in Headers */ = {isa = PBXBuildFile; fileRef = FAB8CF6C1CBC4C600008C2B6 /* tree.h */; };
+		FAB8CF781CBC4C600008C2B6 /* genome.h in Headers */ = {isa = PBXBuildFile; fileRef = FAB8CF6D1CBC4C600008C2B6 /* genome.h */; };
+		FAB8CF791CBC4C600008C2B6 /* rampedHalfAndHalfInitializer.h in Headers */ = {isa = PBXBuildFile; fileRef = FAB8CF6E1CBC4C600008C2B6 /* rampedHalfAndHalfInitializer.h */; };
+		FAB8CF7A1CBC4C600008C2B6 /* initializer.h in Headers */ = {isa = PBXBuildFile; fileRef = FAB8CF6F1CBC4C600008C2B6 /* initializer.h */; };
+		FAB8CF7B1CBC4C600008C2B6 /* treeEvaluator.h in Headers */ = {isa = PBXBuildFile; fileRef = FAB8CF701CBC4C600008C2B6 /* treeEvaluator.h */; };
+		FAB8CF7C1CBC4C600008C2B6 /* treePrinter.h in Headers */ = {isa = PBXBuildFile; fileRef = FAB8CF711CBC4C600008C2B6 /* treePrinter.h */; };
+		FAB8CF971CBC4CA40008C2B6 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FAB8CF961CBC4CA40008C2B6 /* main.cpp */; };
+		FAB8CF9D1CBC4CCA0008C2B6 /* multiFunctionSolver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FAB8CF9B1CBC4CCA0008C2B6 /* multiFunctionSolver.cpp */; };
+		FAB8CF9E1CBC4CCA0008C2B6 /* functionSolver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FAB8CF9C1CBC4CCA0008C2B6 /* functionSolver.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		FAB8CF921CBC4CA40008C2B6 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		FAB8CF591CBC4C1A0008C2B6 /* libfyp-genetic-programming.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libfyp-genetic-programming.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAB8CF671CBC4C600008C2B6 /* geneticProgramming.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = geneticProgramming.h; sourceTree = "<group>"; };
+		FAB8CF681CBC4C600008C2B6 /* grammar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = grammar.h; sourceTree = "<group>"; };
+		FAB8CF691CBC4C600008C2B6 /* treeCompiler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = treeCompiler.h; sourceTree = "<group>"; };
+		FAB8CF6A1CBC4C600008C2B6 /* treeGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = treeGenerator.h; sourceTree = "<group>"; };
+		FAB8CF6B1CBC4C600008C2B6 /* iteratorRange.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iteratorRange.h; sourceTree = "<group>"; };
+		FAB8CF6C1CBC4C600008C2B6 /* tree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tree.h; sourceTree = "<group>"; };
+		FAB8CF6D1CBC4C600008C2B6 /* genome.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = genome.h; sourceTree = "<group>"; };
+		FAB8CF6E1CBC4C600008C2B6 /* rampedHalfAndHalfInitializer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rampedHalfAndHalfInitializer.h; sourceTree = "<group>"; };
+		FAB8CF6F1CBC4C600008C2B6 /* initializer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = initializer.h; sourceTree = "<group>"; };
+		FAB8CF701CBC4C600008C2B6 /* treeEvaluator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = treeEvaluator.h; sourceTree = "<group>"; };
+		FAB8CF711CBC4C600008C2B6 /* treePrinter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = treePrinter.h; sourceTree = "<group>"; };
+		FAB8CF941CBC4CA40008C2B6 /* fyp-genetic-unittests */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "fyp-genetic-unittests"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAB8CF961CBC4CA40008C2B6 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		FAB8CF9B1CBC4CCA0008C2B6 /* multiFunctionSolver.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = multiFunctionSolver.cpp; sourceTree = "<group>"; };
+		FAB8CF9C1CBC4CCA0008C2B6 /* functionSolver.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = functionSolver.cpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FAB8CF561CBC4C1A0008C2B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAB8CF911CBC4CA40008C2B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FAB8CF501CBC4C1A0008C2B6 = {
+			isa = PBXGroup;
+			children = (
+				FAB8CF5B1CBC4C1A0008C2B6 /* fyp-genetic-programming */,
+				FAB8CF951CBC4CA40008C2B6 /* fyp-genetic-unittests */,
+				FAB8CF5A1CBC4C1A0008C2B6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FAB8CF5A1CBC4C1A0008C2B6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FAB8CF591CBC4C1A0008C2B6 /* libfyp-genetic-programming.a */,
+				FAB8CF941CBC4CA40008C2B6 /* fyp-genetic-unittests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FAB8CF5B1CBC4C1A0008C2B6 /* fyp-genetic-programming */ = {
+			isa = PBXGroup;
+			children = (
+				FAB8CF671CBC4C600008C2B6 /* geneticProgramming.h */,
+				FAB8CF681CBC4C600008C2B6 /* grammar.h */,
+				FAB8CF691CBC4C600008C2B6 /* treeCompiler.h */,
+				FAB8CF6A1CBC4C600008C2B6 /* treeGenerator.h */,
+				FAB8CF6B1CBC4C600008C2B6 /* iteratorRange.h */,
+				FAB8CF6C1CBC4C600008C2B6 /* tree.h */,
+				FAB8CF6D1CBC4C600008C2B6 /* genome.h */,
+				FAB8CF6E1CBC4C600008C2B6 /* rampedHalfAndHalfInitializer.h */,
+				FAB8CF6F1CBC4C600008C2B6 /* initializer.h */,
+				FAB8CF701CBC4C600008C2B6 /* treeEvaluator.h */,
+				FAB8CF711CBC4C600008C2B6 /* treePrinter.h */,
+			);
+			path = "fyp-genetic-programming";
+			sourceTree = "<group>";
+		};
+		FAB8CF951CBC4CA40008C2B6 /* fyp-genetic-unittests */ = {
+			isa = PBXGroup;
+			children = (
+				FAB8CF9B1CBC4CCA0008C2B6 /* multiFunctionSolver.cpp */,
+				FAB8CF9C1CBC4CCA0008C2B6 /* functionSolver.cpp */,
+				FAB8CF961CBC4CA40008C2B6 /* main.cpp */,
+			);
+			path = "fyp-genetic-unittests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		FAB8CF571CBC4C1A0008C2B6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAB8CF7A1CBC4C600008C2B6 /* initializer.h in Headers */,
+				FAB8CF751CBC4C600008C2B6 /* treeGenerator.h in Headers */,
+				FAB8CF741CBC4C600008C2B6 /* treeCompiler.h in Headers */,
+				FAB8CF791CBC4C600008C2B6 /* rampedHalfAndHalfInitializer.h in Headers */,
+				FAB8CF781CBC4C600008C2B6 /* genome.h in Headers */,
+				FAB8CF761CBC4C600008C2B6 /* iteratorRange.h in Headers */,
+				FAB8CF7C1CBC4C600008C2B6 /* treePrinter.h in Headers */,
+				FAB8CF7B1CBC4C600008C2B6 /* treeEvaluator.h in Headers */,
+				FAB8CF731CBC4C600008C2B6 /* grammar.h in Headers */,
+				FAB8CF771CBC4C600008C2B6 /* tree.h in Headers */,
+				FAB8CF721CBC4C600008C2B6 /* geneticProgramming.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		FAB8CF581CBC4C1A0008C2B6 /* fyp-genetic-programming */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAB8CF641CBC4C1A0008C2B6 /* Build configuration list for PBXNativeTarget "fyp-genetic-programming" */;
+			buildPhases = (
+				FAB8CF551CBC4C1A0008C2B6 /* Sources */,
+				FAB8CF561CBC4C1A0008C2B6 /* Frameworks */,
+				FAB8CF571CBC4C1A0008C2B6 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "fyp-genetic-programming";
+			productName = "fyp-genetic-programming";
+			productReference = FAB8CF591CBC4C1A0008C2B6 /* libfyp-genetic-programming.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		FAB8CF931CBC4CA40008C2B6 /* fyp-genetic-unittests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAB8CF981CBC4CA40008C2B6 /* Build configuration list for PBXNativeTarget "fyp-genetic-unittests" */;
+			buildPhases = (
+				FAB8CF901CBC4CA40008C2B6 /* Sources */,
+				FAB8CF911CBC4CA40008C2B6 /* Frameworks */,
+				FAB8CF921CBC4CA40008C2B6 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "fyp-genetic-unittests";
+			productName = "fyp-genetic-unittests";
+			productReference = FAB8CF941CBC4CA40008C2B6 /* fyp-genetic-unittests */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FAB8CF511CBC4C1A0008C2B6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = baccka;
+				TargetAttributes = {
+					FAB8CF581CBC4C1A0008C2B6 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					FAB8CF931CBC4CA40008C2B6 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = FAB8CF541CBC4C1A0008C2B6 /* Build configuration list for PBXProject "fyp-genetic-programming" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FAB8CF501CBC4C1A0008C2B6;
+			productRefGroup = FAB8CF5A1CBC4C1A0008C2B6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FAB8CF581CBC4C1A0008C2B6 /* fyp-genetic-programming */,
+				FAB8CF931CBC4CA40008C2B6 /* fyp-genetic-unittests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FAB8CF551CBC4C1A0008C2B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAB8CF901CBC4CA40008C2B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAB8CF9D1CBC4CCA0008C2B6 /* multiFunctionSolver.cpp in Sources */,
+				FAB8CF9E1CBC4CCA0008C2B6 /* functionSolver.cpp in Sources */,
+				FAB8CF971CBC4CA40008C2B6 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		FAB8CF621CBC4C1A0008C2B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		FAB8CF631CBC4C1A0008C2B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		FAB8CF651CBC4C1A0008C2B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				EXECUTABLE_PREFIX = lib;
+				GCC_ENABLE_CPP_EXCEPTIONS = YES;
+				GCC_ENABLE_CPP_RTTI = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FAB8CF661CBC4C1A0008C2B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				EXECUTABLE_PREFIX = lib;
+				GCC_ENABLE_CPP_EXCEPTIONS = YES;
+				GCC_ENABLE_CPP_RTTI = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FAB8CF991CBC4CA40008C2B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FAB8CF9A1CBC4CA40008C2B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FAB8CF541CBC4C1A0008C2B6 /* Build configuration list for PBXProject "fyp-genetic-programming" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAB8CF621CBC4C1A0008C2B6 /* Debug */,
+				FAB8CF631CBC4C1A0008C2B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAB8CF641CBC4C1A0008C2B6 /* Build configuration list for PBXNativeTarget "fyp-genetic-programming" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAB8CF651CBC4C1A0008C2B6 /* Debug */,
+				FAB8CF661CBC4C1A0008C2B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FAB8CF981CBC4CA40008C2B6 /* Build configuration list for PBXNativeTarget "fyp-genetic-unittests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAB8CF991CBC4CA40008C2B6 /* Debug */,
+				FAB8CF9A1CBC4CA40008C2B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FAB8CF511CBC4C1A0008C2B6 /* Project object */;
+}
